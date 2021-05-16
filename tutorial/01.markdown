@@ -4,7 +4,7 @@ The essence of a key-value store is the ability to store some data,
 called a value, inside a key. This data can later be retrieved only if we know
 the exact key used to store it.
 
-Often Redis it is called a data structure server because it has outer key-value shell, but each
+Often Redis is called a data structure server because it has outer key-value shell, but each
 value can contain a complex data structure, such as a string, a list, a hashes, or ordered data
 structures called sorted sets as well as probabilistic data structures like hyperloglog.
 
@@ -21,7 +21,7 @@ stored at key server:name?" and Redis will reply with "fido":
     <a href="#run">GET server:name</a> => "fido"
 </code></pre>
 
-There is a command in order to test if a give key exists or not:
+There is a command in order to test if a given key exists or not:
 
 <pre><code>
     <a href="#run">EXISTS server:name</a> => 1
